@@ -1,8 +1,10 @@
 body{
   margin:0px;
   padding:0px;
+  font-family: 'Roboto', Arial, sans-serif;
 }
 
+/* header */
 .header{
 background-color: #1F2937;
 display:flex;
@@ -31,6 +33,7 @@ align-items: center;
   font-size: 13px;
 }
 
+/* Hero Section */
 .hero{
   display: flex;
   justify-content: space-between;
@@ -77,7 +80,83 @@ align-items: center;
   flex-shrink:3;
 }
 
+/* Info Section */
+.info-section h2{
+text-align: center;
+margin-top:50px;
+font-size: 39px;
+font-weight: bold;
+}
 
+.box-container{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  gap:50px;
+  margin-top: 60px;
+}
 
+.box{
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 5px;
+  border-color: #3B82F6;
+  width: 180px;
+  height: 180px;
+}
 
+.info-section p{
+  font-size: 19px;
+  font-weight: bold;
+  color:grey;
+  text-align: center;
+}
 
+.quote-section{
+    background-color: #E5E7Eb;
+    
+    text-align: center;
+    padding:60px;
+}
+
+.quote{
+  font-size: 36px;
+  color:#1F2937;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+.signup-container{
+  text-align: center;
+  display:flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 30px;
+  background-color: #3B82F6;
+  margin: 100px 300px 100px 300px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.signup-text h4{
+  color:white;
+  font-size: 24px;
+  font-weight: bold;
+  margin:0;
+  padding:15px 0px 15px 0px;
+}
+.signup-text p{
+  color:white;
+  font-size: 15px;
+  font-weight: normal;
+}
+
+.bt2{
+  color:#E5E7Eb ;
+  background-color: #3B82F6;
+  border-radius:6px;
+  width: 150px;
+  height:50px;
+  cursor:pointer;
+  border:solid;
+}

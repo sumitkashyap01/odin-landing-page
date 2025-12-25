@@ -179,7 +179,7 @@ img{
    
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   body {
     width: auto;
   }
@@ -227,34 +227,43 @@ img{
     gap: 0;
     padding-top: 0;
     padding-bottom: 80px;
-    position: relative;
+    /* position: relative; */
   }
 
   .hero-text {
-    margin-left: 20px;
+    margin:0;
+    margin: 0 auto;
   }
 
   .hero-text > h1 {
-    font-size: 38px;
+    font-size: 350%;
     margin-bottom: 0;
   }
   .hero-text > p {
-    font-size: 13px;
+    font-size: 100%;
+    text-align: justify;
     font-weight: 400;
     margin-top: 10px;
     margin-bottom: 20px;
     line-height: 22px;
   }
   .hero-text > button {
-    position: absolute;
-    margin-top: 10px;
-    margin-left: 50px;
+    /* position: absolute; */
+    margin:0;
+    padding:0;
+    margin-left: 35%;
     border: 0;
     border-radius: 2px;
     padding: 10px 40px;
     background-color: cornflowerblue;
-    bottom: 30px;
-    left: 22%;
+  }
+
+  .hero-img{
+    padding:0;
+    width:50%;
+    margin: 30px auto 0 auto;
+    text-align: center;
+    padding:130px 100px;
   }
 
   .hero-img p {
@@ -264,12 +273,15 @@ img{
   }
 
   .tiles {
-    width: 70vw;
+    /* width: 70%; */
     display: flex;
     flex-direction: column;
     gap: 10px;
     justify-content: space-evenly;
     margin-top: 20px;
+  }
+  .tiles>div>div{
+    padding:30% 40% ;
   }
 
   .middle-two {
